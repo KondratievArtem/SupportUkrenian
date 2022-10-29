@@ -1,0 +1,22 @@
+.root {
+	max-width: 125.3rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	font-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h4 {
+		color: #006dc4;
+		font-size: inherit;
+		font-weight: 400;
+	}
+	& > *:not(:last-child) {
+		margin-bottom: 3rem;
+	}
+}
+.img {
+	width: 20rem;
+}

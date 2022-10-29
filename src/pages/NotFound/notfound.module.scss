@@ -1,0 +1,29 @@
+.root {
+	max-width: 125.3rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	position: relative;
+}
+
+.wrapper {
+	border: 1px solid#230565;
+	border-radius: 10px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(blue, yellow);
+	opacity: 0.8;
+}
+
+.text {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+	position: absolute;
+	top: 40%;
+	left: 50vw;
+	transform: translateX(-50%);
+}

@@ -1,0 +1,457 @@
+.goods-content {
+	&__container {
+	}
+
+	&__columns {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+	}
+
+	&__body-img {
+		position: relative;
+	}
+
+	&__img-ibg {
+		img {
+			width: 100%;
+		}
+	}
+
+	&__body-description {
+	}
+
+	&__body-seo {
+	}
+
+	&__seo-title {
+		margin-bottom: 2.4rem;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 2.3rem;
+		padding-top: 2.9rem;
+	}
+
+	&__pianino {
+		display: none;
+	}
+
+	&__seo-text {
+		font-weight: 400;
+		font-size: 1.8rem;
+		line-height: 2.6rem;
+		color: #575757;
+	}
+
+	&__recommended-goods {
+	}
+}
+
+.body-seo__container {
+	border-top: 1px solid#dcdcdc;
+}
+
+.recommended-goods {
+	padding-top: 8rem;
+
+	&__container {
+	}
+
+	&__title {
+		margin-bottom: 5.6rem;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 3.6rem;
+		line-height: 100%;
+	}
+
+	&__body {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.goods-description {
+	margin-left: 3.05rem;
+	max-width: 49.6rem;
+
+	&__suptitle {
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 120%;
+		margin-bottom: 0.9rem;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 3rem;
+		line-height: 112%;
+		text-transform: uppercase;
+		margin-bottom: 0.9rem;
+	}
+
+	&__info-stock {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 3.2rem;
+		align-items: center;
+	}
+
+	&__artcl {
+		font-size: 1.8rem;
+		line-height: 144%;
+		color: #575757;
+		opacity: 0.5;
+	}
+
+	&__in-stock .in-stock {
+		font-size: 1.4rem;
+		line-height: 186%;
+		color: #19d615;
+		opacity: 0.5;
+	}
+	&__in-stock .missing {
+		font-size: 1.4rem;
+		line-height: 186%;
+		color: #d61b15;
+		opacity: 0.5;
+	}
+
+	&__price {
+		display: flex;
+		font-weight: 600;
+		font-size: 2.8rem;
+		line-height: 100%;
+		margin-bottom: 3.2rem;
+
+		p {
+			text-transform: uppercase;
+			margin-right: 0.5rem;
+		}
+	}
+
+	&__text {
+		margin-bottom: 4.4rem;
+		font-size: 1.8rem;
+		line-height: 144%;
+		color: #575757;
+	}
+
+	&__basket {
+		margin-bottom: 5.2rem;
+		display: flex;
+		align-items: center;
+	}
+
+	&__counter {
+		display: flex;
+		border: 1px solid #dcdcdc;
+
+		p {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 5.2rem;
+			height: 5.2rem;
+			font-size: 3.2rem;
+		}
+
+		p:first-child {
+			border-right: 1px solid#dcdcdc;
+			cursor: pointer;
+		}
+
+		p:hover:first-child {
+			color: #006dc5;
+		}
+
+		p:last-child {
+			border-left: 1px solid#dcdcdc;
+			cursor: pointer;
+		}
+
+		p:hover:last-child {
+			color: #006dc5;
+		}
+	}
+
+	&__add-basket {
+		button {
+			padding: 1.6rem 6.5rem;
+			background-color: #006dc5;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 1.8rem;
+			line-height: 105%;
+			margin-left: 2rem;
+		}
+
+		button:hover {
+			background-color: #3790d7;
+		}
+	}
+
+	&__pianino {
+	}
+
+	&__pianono-ikon {
+		padding: 2.4rem 0 0;
+		border-bottom: 1px solid#dcdcdc;
+	}
+
+	&__pianono-ikon:first-child {
+		border-top: 1px solid#dcdcdc;
+	}
+
+	&__pianono-ikon:last-child {
+		border-bottom: none;
+	}
+
+	&__pianino-title {
+		position: relative;
+		font-size: 2rem;
+		line-height: 2.3rem;
+		margin-bottom: 2.4rem;
+		cursor: pointer;
+	}
+
+	&__pianino-title::after {
+		content: '+';
+		position: absolute;
+		display: block;
+		top: 0;
+		right: 0.9rem;
+		width: 1.9rem;
+		height: 1.9rem;
+		font-size: 3.6rem;
+	}
+
+	&__pianino-text {
+		display: none;
+	}
+}
+
+.goods-description {
+	&__pianono-ikon.activ &__pianino-text {
+		display: block;
+		margin-bottom: 2.4rem;
+
+		ul li {
+			font-size: 1.8rem;
+			line-height: 144%;
+			color: #575757;
+			list-style: disc;
+			margin-left: 2.5rem;
+		}
+	}
+
+	&__pianono-ikon.activ &__pianino-title::after {
+		content: '−';
+	}
+}
+
+.select-color {
+	margin-bottom: 4.4rem;
+
+	&__title {
+		margin-bottom: 2rem;
+		font-size: 2rem;
+		line-height: 2.3rem;
+	}
+
+	&__form {
+		display: flex;
+
+		label {
+			cursor: pointer;
+		}
+	}
+
+	&__form > *:not(:last-child) {
+		margin-right: 2rem;
+	}
+
+	&__select {
+		display: none;
+	}
+
+	&__span::before {
+		content: '';
+		display: block;
+		width: 4.2rem;
+		height: 4.2rem;
+
+		border-radius: 50%;
+	}
+
+	&__span-bleck::before {
+		content: '';
+		background-color: #333;
+	}
+
+	&__span-white::before {
+		content: '';
+		background-color: #fff;
+		border: 1px solid#333;
+	}
+
+	&__span:hover::before {
+		content: '';
+		border: 5px solid#3790d7;
+	}
+
+	&__select:checked + &__span::before {
+		border: 5px solid#3790d7;
+	}
+}
+
+.select-size {
+	margin-bottom: 4.4rem;
+
+	&__title {
+		font-size: 2rem;
+		line-height: 2.3rem;
+		margin-bottom: 2rem;
+	}
+
+	&__body {
+		display: flex;
+	}
+
+	&__form {
+		display: flex;
+
+		input {
+			display: none;
+		}
+	}
+
+	&__form > *:not(:last-child) {
+		margin-right: 2rem;
+	}
+
+	&__label {
+		cursor: pointer;
+	}
+
+	&__span {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 4.8rem;
+		height: 4.8rem;
+		line-height: 1.9rem;
+		text-transform: uppercase;
+		border: 1px solid #dcdcdc;
+	}
+
+	&__span:hover {
+		color: #3790d7;
+	}
+
+	&__tabl {
+		margin-left: 3.6rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__img {
+		margin-right: 1.2rem;
+	}
+
+	&__text {
+		font-size: 2rem;
+		line-height: 2.3rem;
+		text-decoration: underline;
+	}
+
+	&__form input:checked + &__span {
+		border: 1px solid #3790d7;
+	}
+}
+
+// 1220px===============================
+
+@media (max-width: 76.25em) {
+	.select-size {
+		&__body {
+			display: block;
+		}
+
+		&__tabl {
+			margin: 2rem 0 0 0;
+			justify-content: flex-start;
+		}
+	}
+
+	.goods-description {
+		&__title {
+			font-size: 2rem;
+		}
+
+		&__basket {
+			display: block;
+		}
+
+		&__counter {
+			width: 100%;
+		}
+
+		&__counter-curent {
+			flex: 1 1 auto;
+		}
+
+		&__add-basket {
+			button {
+				margin: 1.6rem 0 0 0;
+				width: 100%;
+			}
+		}
+	}
+
+	.recommended-goods {
+		&__body {
+			flex-wrap: wrap;
+		}
+	}
+}
+
+// 768px---------------------------------------------
+@media (max-width: 48em) {
+	.goods-content {
+		&__pianino {
+			display: block;
+		}
+	}
+
+	.goods-description {
+		&__pianino {
+			display: none;
+		}
+	}
+
+	.recommended-goods {
+		&__title {
+			font-size: 2rem;
+		}
+	}
+}
+
+// 540px======================================
+@media (max-width: 33.75em) {
+	.goods-content {
+		&__columns {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	.goods-description {
+		margin-top: 3.05rem;
+		margin-left: 0rem;
+		max-width: 100%;
+	}
+}

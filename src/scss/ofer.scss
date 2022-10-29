@@ -1,0 +1,313 @@
+.ofer-main {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.placing-order {
+	&__container {
+		padding: 3.4rem 2.7rem;
+		background-color: white;
+		margin-right: 2.4rem;
+		max-width: 78.5rem;
+	}
+
+	&__container > *:not(:last-child) {
+		margin-bottom: 3.2rem;
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 2rem;
+		line-height: 180%;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	&__recipient,
+	&__delivery {
+		padding-bottom: 3.2rem;
+		border-bottom: 1px solid#D8D8D8;
+	}
+
+	&__recipient-title {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 3.2rem;
+	}
+
+	&__recipient-form,
+	&__delivery-address {
+		margin: -1.2rem;
+
+		input {
+			padding: 1.2rem 2.4rem;
+			border: 1px solid#BBBBBB;
+			margin: 1.2rem;
+			line-height: 150%;
+			color: #bbbbbb;
+			font-size: 1.6rem;
+		}
+	}
+
+	&__delivery {
+	}
+
+	&__delivery-title,
+	&__payment-title {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 2.4rem;
+	}
+
+	&__delivery-form {
+	}
+
+	&__delivery-address {
+		margin-bottom: 2.4rem;
+	}
+
+	&__delivery-method {
+		color: #575757;
+		font-weight: 400;
+		font-size: 1.8rem;
+		line-height: 144%;
+	}
+
+	&__delivery-method-info {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__payment > *:not(:last-child) {
+		margin-bottom: 2.4rem;
+	}
+
+	&__payment-title {
+	}
+
+	&__payment-form {
+		margin: -1.2rem -1.65rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__payment-form-input {
+		margin: 1.2rem 1.65rem;
+	}
+}
+
+.order-composition {
+	&__container {
+		max-width: 40.8rem;
+		padding: 3rem 3.4rem;
+		background-color: white;
+	}
+
+	&__container > *:not(:last-child) {
+		margin-bottom: 2.4rem;
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 2rem;
+		line-height: 180%;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	&__info {
+		font-size: 1.8rem;
+		line-height: 144%;
+		color: #575757;
+		font-weight: 400;
+	}
+
+	&__container-ikon {
+		border-bottom: 1px solid#D8D8D8;
+	}
+
+	&__content {
+		padding-bottom: 1.2rem;
+
+		& > *:not(:last-child) {
+			margin-bottom: 1.5rem;
+		}
+	}
+
+	&__content-icon {
+		display: flex;
+		align-items: center;
+	}
+
+	&__block {
+		& > *:not(:last-child) {
+			margin-bottom: 2.4rem;
+		}
+	}
+
+	&__block-m {
+		display: none;
+	}
+
+	&__content-img {
+		position: relative;
+		width: 10.4rem;
+		height: 11.2rem;
+		margin-right: 2.2rem;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__content-titles {
+		font-size: 1.6rem;
+		font-weight: 400;
+		line-height: 2.4rem;
+		color: #575757;
+	}
+
+	&__content-title {
+	}
+
+	&__content-rozm {
+		opacity: 0.5;
+	}
+
+	&__content-pracie {
+		display: flex;
+
+		& > *:nth-child(2) {
+			transform: rotate(45deg);
+		}
+		& > *:not(:last-child) {
+			margin-right: 1.5rem;
+		}
+	}
+
+	&__summ {
+	}
+
+	&__summ > *:not(:last-child) {
+		margin-bottom: 1.6rem;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 2.3rem;
+	}
+
+	&__summ-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__summ-row-summ {
+		font-weight: 700;
+		font-size: 2rem;
+		line-height: 2.3rem;
+	}
+
+	&__summ-row-number {
+		font-weight: 700;
+		font-size: 3.2rem;
+		line-height: 3.8rem;
+	}
+
+	&__button {
+		width: 100%;
+
+		button {
+			padding: 1.5rem 6.7rem;
+			background-color: #006dc4;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 1.8rem;
+			line-height: 2.1rem;
+			text-align: center;
+			width: 100%;
+		}
+	}
+
+	&__order-input {
+		display: flex;
+		align-items: flex-start;
+
+		input {
+			margin-top: 0.6rem;
+		}
+
+		label {
+			margin-left: 1.2rem;
+			display: inline-block;
+			color: #575757;
+			font-size: 1.6rem;
+			line-height: 150%;
+
+			a {
+				color: #3790d7;
+			}
+		}
+	}
+}
+
+@media (max-width: 48em) {
+	.placing-order {
+		&__container {
+			padding: 1.6rem 2.4rem;
+			margin-right: 1.2rem;
+		}
+
+		&__recipient-form,
+		&__delivery-address {
+			input {
+				width: 93%;
+			}
+		}
+	}
+
+	.order-composition {
+		&__container {
+			padding: 1.5rem 1.7rem;
+		}
+	}
+}
+
+@media (max-width: 35em) {
+	.ofer-main {
+		&__container {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+	}
+
+	.placing-order {
+		&__container {
+			max-width: 100%;
+		}
+	}
+
+	.order-composition {
+		&__container {
+			max-width: 100%;
+			margin-bottom: 2.4rem;
+		}
+
+		&__block {
+			display: none;
+		}
+
+		&__block-m {
+			display: block;
+		}
+	}
+}

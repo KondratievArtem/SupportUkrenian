@@ -1,0 +1,169 @@
+{
+	"goods": [
+		{
+			"id": "158-56-70",
+			"tegline": "SLAVA UKRAINE",
+			"type": "Sweatshirt",
+			"color": "White",
+			"inStock": 0,
+			"price": 850,
+			"imges": "/img/sweatshirt w.png",
+			"size": ["xs", "s", "m", "l", "xl", "xxl"]
+		},
+		{
+			"id": "158-56-85",
+			"tegline": "SLAVA UKRAINE",
+			"type": "Sweatshirt",
+			"color": "Black",
+			"inStock": 1,
+			"price": 840,
+			"imges": "/img/sweatshirt b.png",
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"time": " ",
+			"description": ""
+		},
+		{
+			"id": "158-56-71",
+			"tegline": "SLAVA UKRAINE",
+			"type": "Prapor",
+			"color": "White",
+			"inStock": 1,
+			"price": 400,
+			"imges": "/img/image 16.png"
+		},
+
+		{
+			"id": "158-56-72",
+			"tegline": "SLAVA UKRAINE",
+			"type": "Baner",
+			"color": "black",
+			"inStock": 50,
+			"price": 150,
+			"imges": "/img/image 24.png",
+			"size": ["50x40x100", "70x20x30"]
+		},
+		{
+			"id": "158-56-73",
+			"tegline": "SLAVA UKRAINE",
+			"type": "Baner",
+			"color": "White",
+			"inStock": 60,
+			"price": 200,
+			"imges": "/img/image 17.png"
+		},
+		{
+			"id": "158-56-74",
+			"tegline": "SLAVA UKRAINE",
+			"type": "Stiker",
+			"color": "black",
+			"inStock": 30,
+			"price": 75,
+			"imges": "/img/image 18.png"
+		},
+		{
+			"id": "158-56-75",
+			"tegline": "SLAVA UKRAINE",
+			"type": "footbolka",
+			"color": "White",
+			"inStock": 30,
+			"price": 340,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 19 .png"
+		},
+		{
+			"id": "158-56-77",
+			"tegline": "SLAVA UKRAINE",
+			"type": "footbolka",
+			"color": "black",
+			"inStock": 0,
+			"price": 300,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 29.png"
+		},
+		{
+			"id": "158-56-78",
+			"tegline": "SLAVA UKRAINE",
+			"type": "baysbolka",
+			"color": "black",
+			"inStock": 1,
+			"price": 600,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 26.png"
+		},
+		{
+			"id": "158-56-79",
+			"tegline": "SLAVA UKRAINE",
+			"type": "baysbolka",
+			"color": "White",
+			"inStock": 75,
+			"price": 550,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 21.png"
+		},
+		{
+			"id": "158-56-80",
+			"tegline": "SLAVA UKRAINE",
+			"type": "sumka",
+			"color": "black",
+			"inStock": 290,
+			"price": 60,
+			"imges": "/img/image 28.png"
+		},
+		{
+			"id": "158-56-82",
+			"tegline": "SLAVA UKRAINE",
+			"type": "sumka",
+			"color": "White",
+			"inStock": 15,
+			"price": 56,
+			"imges": "/img/image 27.png"
+		},
+		{
+			"id": "158-56-50",
+			"tegline": "SLAVA UKRAINE",
+			"type": "footbolka",
+			"color": "White",
+			"inStock": 30,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"price": 350,
+			"imges": "/img/image 19 .png"
+		},
+		{
+			"id": "158-56-60",
+			"tegline": "SLAVA UKRAINE",
+			"type": "footbolka",
+			"color": "black",
+			"inStock": 25,
+			"price": 310,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 29.png"
+		},
+		{
+			"id": "158-56-30",
+			"tegline": "SLAVA UKRAINE",
+			"type": "baysbolka",
+			"color": "black",
+			"inStock": 1,
+			"price": 590,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 26.png"
+		},
+		{
+			"id": "158-56-29",
+			"tegline": "SLAVA UKRAINE",
+			"type": "baysbolka",
+			"color": "White",
+			"inStock": 75,
+			"price": 560,
+			"size": ["xs", "s", "m", "l", "xl", "xxl"],
+			"imges": "/img/image 21.png"
+		},
+		{ "id": "158-56-28", "tegline": "SLAVA UKRAINE", "type": "sumka", "color": "black", "inStock": 320, "price": 61, "imges": "/img/image 28.png" },
+		{ "id": "158-56-27", "tegline": "SLAVA UKRAINE", "type": "sumka", "color": "White", "inStock": 15, "price": 55, "imges": "/img/image 27.png" }
+	],
+	"language": [
+		{ "img": "/img/ukraine.svg", "len": "UA" },
+		{ "img": "/img/poland.svg", "len": "PL" },
+		{ "img": "/img/britan.svg", "len": "EN" }
+	]
+}
